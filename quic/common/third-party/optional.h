@@ -40,6 +40,7 @@ Original repository: https://github.com/Sedeniono/tiny-optional
 #include <optional> // Required for std::nullopt etc.
 #include <type_traits> // Required for std::hash conditions
 #include <cstdio>  // Required for std::fprintf
+#include <cstdlib>
 
 // In principle the following headers are required, but we rely on the standard header <optional> to include the
 // necessary pieces from the omitted headers. This is a build performance optimization, especially when using gcc's
